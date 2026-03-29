@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/layout.tsx","./src/pages/breaktimer.tsx","./src/pages/expensetracker.tsx","./src/pages/gpsfinder.tsx","./src/pages/home.tsx","./src/pages/mileagetracker.tsx","./src/pages/receiptscanner.tsx","./src/pages/weather.tsx"],"version":"5.6.3"}

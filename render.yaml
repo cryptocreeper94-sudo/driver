@@ -1,0 +1,17 @@
+# Render Blueprint — Driver Tools (driver.tlid.io)
+services:
+  - type: web
+    name: driver-tools
+    runtime: node
+    region: ohio
+    plan: starter
+    branch: main
+    repo: https://github.com/cryptocreeper94-sudo/driver
+    buildCommand: npm install && npm run build
+    startCommand: npx serve dist -s -l 5000
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: NODE_ENV
+        value: production
