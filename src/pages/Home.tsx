@@ -28,7 +28,7 @@ const TOOLS = [
   {
     href: '/scanner',
     label: 'Receipt Scanner',
-    description: 'Snap a photo — AI extracts merchant, items, totals & tax instantly',
+    description: 'Snap a photo  -  AI extracts merchant, items, totals & tax instantly',
     icon: ScanLine,
     image: cardScanner,
     gradient: 'from-cyan-500 to-teal-500',
@@ -185,7 +185,7 @@ export default function Home() {
               <div className="size-5 rounded-md bg-white/[0.06] flex items-center justify-center">
                 <Zap className="size-3" />
               </div>
-              <span>Mobile-first • Works on LTE</span>
+              <span>Mobile-first * Works on LTE</span>
             </div>
           </div>
         </div>
@@ -220,7 +220,7 @@ export default function Home() {
           <div className="flex-1 min-w-0">
             <p className="text-sm font-bold text-white">Hungry on the road?</p>
             <p className="text-[11px] text-white/30 leading-relaxed">
-              Order food from local vendors in your zone with <span className="text-orange-300/60">Happy Eats</span> — our delivery platform built for drivers.
+              Order food from local vendors in your zone with <span className="text-orange-300/60">Happy Eats</span>  -  our delivery platform built for drivers.
             </p>
           </div>
           <a

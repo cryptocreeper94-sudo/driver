@@ -87,7 +87,7 @@ export default function MileageTracker() {
           <h3 className="text-xs font-bold text-white">Quick Calculate</h3>
         </div>
         <p className="text-[10px] text-white/30 mb-2">
-          {totalMiles.toFixed(1)} miles × ${IRS_RATE}/mile = <span className="text-emerald-300 font-bold">${totalDeduction.toFixed(2)} deduction</span>
+          {totalMiles.toFixed(1)} miles x ${IRS_RATE}/mile = <span className="text-emerald-300 font-bold">${totalDeduction.toFixed(2)} deduction</span>
         </p>
       </div>
 
@@ -123,11 +123,11 @@ export default function MileageTracker() {
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-xs font-medium text-white truncate">
-                <MapPin className="size-3 inline mr-1 text-white/30" />{trip.from} → {trip.to}
+                <MapPin className="size-3 inline mr-1 text-white/30" />{trip.from} -> {trip.to}
               </p>
               <p className="text-[10px] text-white/30 flex items-center gap-2">
                 <Calendar className="size-2.5" />{trip.date}
-                {trip.purpose && <span>• {trip.purpose}</span>}
+                {trip.purpose && <span>* {trip.purpose}</span>}
               </p>
             </div>
             <div className="text-right shrink-0">

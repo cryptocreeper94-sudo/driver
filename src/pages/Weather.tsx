@@ -125,7 +125,7 @@ export default function Weather() {
                   <CurrentIcon className="size-8 text-blue-400" />
                 </div>
                 <div>
-                  <p className="text-4xl font-bold text-white">{weather.current.temp}°</p>
+                  <p className="text-4xl font-bold text-white">{weather.current.temp}deg</p>
                   <p className="text-sm text-white/50">{weather.current.condition}</p>
                   <p className="text-xs text-white/30 flex items-center gap-1 mt-0.5">
                     <MapPin className="size-3" /> {weather.location}
@@ -144,7 +144,7 @@ export default function Weather() {
             <div className="glass-card p-3 text-center">
               <Thermometer className="size-4 text-orange-400 mx-auto mb-1" />
               <p className="text-[9px] text-white/30">Feels Like</p>
-              <p className="text-sm font-bold text-white">{weather.current.temp}°F</p>
+              <p className="text-sm font-bold text-white">{weather.current.temp}degF</p>
             </div>
             <div className="glass-card p-3 text-center">
               <Droplets className="size-4 text-blue-400 mx-auto mb-1" />
@@ -189,8 +189,8 @@ export default function Weather() {
                   <div key={i} className={`p-3 rounded-xl text-center min-w-[72px] shrink-0 ${i === 0 ? 'bg-cyan-500/10 border border-cyan-500/20' : 'bg-white/[0.03] border border-white/[0.06]'}`}>
                     <p className="text-[10px] font-medium text-white mb-1.5">{dayName}</p>
                     <DayIcon className={`size-5 mx-auto mb-1.5 ${i === 0 ? 'text-cyan-400' : 'text-blue-400'}`} />
-                    <p className="text-xs font-bold text-white">{day.high}°</p>
-                    <p className="text-[10px] text-white/40">{day.low}°</p>
+                    <p className="text-xs font-bold text-white">{day.high}deg</p>
+                    <p className="text-[10px] text-white/40">{day.low}deg</p>
                   </div>
                 );
               })}

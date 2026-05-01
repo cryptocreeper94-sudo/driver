@@ -129,7 +129,7 @@ export default function ExpenseTracker() {
               </div>
               <div className="flex-1 min-w-0">
                 <p className="text-xs font-medium text-white truncate">{exp.description}</p>
-                <p className="text-[10px] text-white/30">{exp.date} • {cat.label}</p>
+                <p className="text-[10px] text-white/30">{exp.date} * {cat.label}</p>
               </div>
               <p className="text-sm font-bold text-white shrink-0">${exp.amount.toFixed(2)}</p>
               <button onClick={() => del(exp.id)} className="size-8 rounded-lg hover:bg-red-500/10 flex items-center justify-center text-white/20 hover:text-red-400 transition-colors">

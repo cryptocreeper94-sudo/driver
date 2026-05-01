@@ -97,11 +97,11 @@ export default function Layout({ children }: { children: ReactNode }) {
         <div className="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
           <div className="flex items-center gap-2 text-white/20 text-xs">
             <Shield className="size-3" />
-            <span>Driver Connect — powered by <a href="https://dwtl.io" target="_blank" rel="noopener noreferrer" className="text-cyan-400/50 hover:text-cyan-400 transition-colors">Trust Layer</a></span>
+            <span>Driver Connect  -  powered by <a href="https://dwtl.io" target="_blank" rel="noopener noreferrer" className="text-cyan-400/50 hover:text-cyan-400 transition-colors">Trust Layer</a></span>
           </div>
           <div className="flex items-center gap-4 text-[10px] text-white/15">
-            <a href="https://happyeats.app" target="_blank" rel="noopener noreferrer" className="hover:text-white/30 transition-colors">Order Food →</a>
-            <span>© {new Date().getFullYear()} DarkWave</span>
+            <a href="https://happyeats.app" target="_blank" rel="noopener noreferrer" className="hover:text-white/30 transition-colors">Order Food -></a>
+            <span>(c) {new Date().getFullYear()} DarkWave</span>
           </div>
         </div>
       </footer>

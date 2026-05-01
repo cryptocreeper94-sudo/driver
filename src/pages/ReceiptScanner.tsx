@@ -101,7 +101,7 @@ export default function ReceiptScanner() {
         </Link>
         <div>
           <h1 className="text-lg font-bold text-white">Receipt Scanner</h1>
-          <p className="text-[11px] text-white/30">AI-powered OCR • Tesseract.js</p>
+          <p className="text-[11px] text-white/30">AI-powered OCR * Tesseract.js</p>
         </div>
       </div>
 
@@ -123,7 +123,7 @@ export default function ReceiptScanner() {
           <div>
             <h3 className="text-sm font-bold text-white mb-1">Scan any receipt</h3>
             <p className="text-[11px] text-white/30">
-              Take a photo or upload an image — our AI will extract merchant, items, totals & tax
+              Take a photo or upload an image  -  our AI will extract merchant, items, totals & tax
             </p>
           </div>
           <div className="flex gap-3">
