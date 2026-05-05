@@ -123,7 +123,7 @@ export default function MileageTracker() {
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-xs font-medium text-white truncate">
-                <MapPin className="size-3 inline mr-1 text-white/30" />{trip.from} -> {trip.to}
+                <MapPin className="size-3 inline mr-1 text-white/30" />{trip.from} ? {trip.to}
               </p>
               <p className="text-[10px] text-white/30 flex items-center gap-2">
                 <Calendar className="size-2.5" />{trip.date}
