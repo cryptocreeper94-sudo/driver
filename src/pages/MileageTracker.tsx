@@ -83,7 +83,7 @@ export default function MileageTracker() {
       {/* IRS Calculator */}
       <div className="glass-card p-4">
         <div className="flex items-center gap-2 mb-2">
-          <Calculator className="size-4 text-violet-400" />
+          <Calculator className="size-4 text-cyan-400" />
           <h3 className="text-xs font-bold text-white">Quick Calculate</h3>
         </div>
         <p className="text-[10px] text-white/30 mb-2">
@@ -93,21 +93,21 @@ export default function MileageTracker() {
 
       {/* Add Trip */}
       {!showForm ? (
-        <button onClick={() => setShowForm(true)} className="w-full py-4 rounded-xl bg-gradient-to-r from-violet-500 to-purple-600 text-white font-bold text-sm flex items-center justify-center gap-2 hover:opacity-90 transition-opacity touch-target">
+        <button onClick={() => setShowForm(true)} className="w-full py-4 rounded-xl bg-gradient-to-r from-cyan-500 to-sky-600 text-white font-bold text-sm flex items-center justify-center gap-2 hover:opacity-90 transition-opacity touch-target">
           <Plus className="size-4" /> Log New Trip
         </button>
       ) : (
         <div className="glass-card p-4 space-y-3">
           <h3 className="text-sm font-bold text-white">New Trip</h3>
           <div className="grid grid-cols-2 gap-2">
-            <input type="date" value={form.date} onChange={e => setForm(p => ({...p, date: e.target.value}))} className="col-span-2 h-11 px-3 rounded-lg bg-white/[0.04] border border-white/[0.08] text-sm text-white focus:outline-none focus:border-violet-500/30" />
-            <input placeholder="From" value={form.from} onChange={e => setForm(p => ({...p, from: e.target.value}))} className="h-11 px-3 rounded-lg bg-white/[0.04] border border-white/[0.08] text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-violet-500/30" />
-            <input placeholder="To" value={form.to} onChange={e => setForm(p => ({...p, to: e.target.value}))} className="h-11 px-3 rounded-lg bg-white/[0.04] border border-white/[0.08] text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-violet-500/30" />
-            <input type="number" step="0.1" placeholder="Miles" value={form.miles} onChange={e => setForm(p => ({...p, miles: e.target.value}))} className="h-11 px-3 rounded-lg bg-white/[0.04] border border-white/[0.08] text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-violet-500/30" />
-            <input placeholder="Purpose" value={form.purpose} onChange={e => setForm(p => ({...p, purpose: e.target.value}))} className="h-11 px-3 rounded-lg bg-white/[0.04] border border-white/[0.08] text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-violet-500/30" />
+            <input type="date" value={form.date} onChange={e => setForm(p => ({...p, date: e.target.value}))} className="col-span-2 h-11 px-3 rounded-lg bg-white/[0.04] border border-white/[0.08] text-sm text-white focus:outline-none focus:border-cyan-500/30" />
+            <input placeholder="From" value={form.from} onChange={e => setForm(p => ({...p, from: e.target.value}))} className="h-11 px-3 rounded-lg bg-white/[0.04] border border-white/[0.08] text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-cyan-500/30" />
+            <input placeholder="To" value={form.to} onChange={e => setForm(p => ({...p, to: e.target.value}))} className="h-11 px-3 rounded-lg bg-white/[0.04] border border-white/[0.08] text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-cyan-500/30" />
+            <input type="number" step="0.1" placeholder="Miles" value={form.miles} onChange={e => setForm(p => ({...p, miles: e.target.value}))} className="h-11 px-3 rounded-lg bg-white/[0.04] border border-white/[0.08] text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-cyan-500/30" />
+            <input placeholder="Purpose" value={form.purpose} onChange={e => setForm(p => ({...p, purpose: e.target.value}))} className="h-11 px-3 rounded-lg bg-white/[0.04] border border-white/[0.08] text-sm text-white placeholder:text-white/20 focus:outline-none focus:border-cyan-500/30" />
           </div>
           <div className="flex gap-2">
-            <button onClick={addTrip} className="flex-1 py-3 rounded-xl bg-gradient-to-r from-violet-500 to-purple-600 text-white font-bold text-xs touch-target">Save Trip</button>
+            <button onClick={addTrip} className="flex-1 py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-sky-600 text-white font-bold text-xs touch-target">Save Trip</button>
             <button onClick={() => setShowForm(false)} className="px-4 py-3 rounded-xl bg-white/[0.05] border border-white/[0.1] text-white/50 text-xs touch-target">Cancel</button>
           </div>
         </div>
@@ -118,8 +118,8 @@ export default function MileageTracker() {
         <h3 className="text-xs font-bold text-white/50 uppercase tracking-wider">Trip Log</h3>
         {trips.map(trip => (
           <div key={trip.id} className="glass-card p-3 flex items-center gap-3">
-            <div className="size-10 rounded-lg bg-violet-500/10 flex items-center justify-center shrink-0">
-              <Route className="size-4 text-violet-400" />
+            <div className="size-10 rounded-lg bg-cyan-500/10 flex items-center justify-center shrink-0">
+              <Route className="size-4 text-cyan-400" />
             </div>
             <div className="flex-1 min-w-0">
               <p className="text-xs font-medium text-white truncate">

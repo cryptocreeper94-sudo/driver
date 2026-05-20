@@ -42,8 +42,8 @@ const TOOLS = [
     description: 'Log trips with IRS deduction calculator at $0.70/mile',
     icon: Route,
     image: cardMileage,
-    gradient: 'from-violet-500 to-purple-600',
-    glowColor: 'shadow-violet-500/30',
+    gradient: 'from-cyan-500 to-sky-600',
+    glowColor: 'shadow-cyan-500/30',
     badge: 'IRS 2025',
   },
   {

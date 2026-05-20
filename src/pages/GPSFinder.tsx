@@ -12,8 +12,8 @@ const CATEGORIES = [
   { id: 'restaurants', label: 'Restaurants', icon: UtensilsCrossed, query: 'restaurant', color: 'from-rose-500 to-pink-500' },
   { id: 'fast-food', label: 'Fast Food', icon: Coffee, query: 'fast food', color: 'from-orange-500 to-red-500' },
   { id: 'grocery', label: 'Grocery', icon: ShoppingCart, query: 'grocery store', color: 'from-emerald-500 to-green-500' },
-  { id: 'gyms', label: 'Gyms', icon: Dumbbell, query: 'gym fitness', color: 'from-violet-500 to-purple-500' },
-  { id: 'movies', label: 'Movies', icon: Film, query: 'movie theater', color: 'from-fuchsia-500 to-pink-500' },
+  { id: 'gyms', label: 'Gyms', icon: Dumbbell, query: 'gym fitness', color: 'from-cyan-500 to-sky-500' },
+  { id: 'movies', label: 'Movies', icon: Film, query: 'movie theater', color: 'from-teal-500 to-pink-500' },
   { id: 'hotels', label: 'Hotels', icon: Hotel, query: 'hotel motel', color: 'from-sky-500 to-blue-500' },
 ];
 

@@ -5,7 +5,7 @@ import { ArrowLeft, Plus, Trash2, Download, DollarSign, Fuel, Car, UtensilsCross
 const CATEGORIES = [
   { id: 'fuel', label: 'Fuel', icon: Fuel, color: 'text-amber-400 bg-amber-500/15' },
   { id: 'parking', label: 'Parking', icon: ParkingCircle, color: 'text-blue-400 bg-blue-500/15' },
-  { id: 'tolls', label: 'Tolls', icon: Car, color: 'text-violet-400 bg-violet-500/15' },
+  { id: 'tolls', label: 'Tolls', icon: Car, color: 'text-cyan-400 bg-cyan-500/15' },
   { id: 'meals', label: 'Meals', icon: UtensilsCrossed, color: 'text-rose-400 bg-rose-500/15' },
   { id: 'maintenance', label: 'Maintenance', icon: Wrench, color: 'text-emerald-400 bg-emerald-500/15' },
 ];

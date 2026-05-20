@@ -4,7 +4,7 @@ import { ArrowLeft, Timer, Play, Pause, RotateCcw, Bell, Clock, AlarmClock } fro
 
 const PRESETS = [
   { label: '30 min', seconds: 30 * 60, desc: 'DOT 30-min break', color: 'from-orange-500 to-rose-500' },
-  { label: '10 hr', seconds: 10 * 60 * 60, desc: 'DOT 10-hr off-duty', color: 'from-violet-500 to-purple-600' },
+  { label: '10 hr', seconds: 10 * 60 * 60, desc: 'DOT 10-hr off-duty', color: 'from-cyan-500 to-sky-600' },
   { label: '15 min', seconds: 15 * 60, desc: 'Quick break', color: 'from-cyan-500 to-teal-500' },
   { label: '1 hr', seconds: 60 * 60, desc: 'Meal break', color: 'from-emerald-500 to-green-600' },
   { label: '8 hr', seconds: 8 * 60 * 60, desc: 'Sleeper berth', color: 'from-blue-500 to-indigo-600' },
